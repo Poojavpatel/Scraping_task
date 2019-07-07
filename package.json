@@ -1,0 +1,32 @@
+{
+  "name": "rebel_task",
+  "version": "1.0.0",
+  "description": "Task to crawl youtube data and store it in mongodb and export as csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "crawl",
+    "mongodb",
+    "csv"
+  ],
+  "author": "Pooja Patel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "json2csv": "^4.5.2",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.3",
+    "mongoose-unique-validator": "^2.0.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
